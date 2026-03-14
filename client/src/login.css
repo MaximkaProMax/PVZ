@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #081028;
+}
+
+.auth-card {
+    background: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px black;
+}
+
+h1 {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(77, 77, 77);
+}
+
+.forgot {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(#CB3CFF, #7F25FB);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register a {
+    color: #0066cc;
+    text-decoration: none;
+    margin-left: 4px;
+}
